@@ -44,12 +44,16 @@ body {
 
 :root {
     font-family: Montserrat, Roboto, sans-serif;
-    
     --black-color: #111111;
     --dark-purple-color: #1E1823;
     --orange-color: #FD9222;
     --white-color: #FAFAFA;
   }
+
+.section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
 
 .container {
     width: 100%;
