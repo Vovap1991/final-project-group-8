@@ -6,26 +6,30 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-p:last-child {
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 a {
-  color: currentColor;
-  text-decoration: none;
-}
+    text-decoration: none;
+    color: currentColor;
+    outline: transparent;
+  }
 
 button {
-  cursor: pointer;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: transparent;
 }
 
 img {
@@ -35,11 +39,11 @@ img {
 }
 
 body {
-    color: var(--black-color);
-    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-style: normal;
-    min-width: 320px;
+    color: var(--black-color);
+    background-color: var(--white-color);
 }
 
 :root {
@@ -51,7 +55,6 @@ body {
   }
 
 .section {
-    padding-top: 72px;
     padding-bottom: 72px;
 }
 
@@ -85,7 +88,7 @@ body {
     list-style: none;
 }
 
-.visually-hidden {
+.hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -96,4 +99,4 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+  }
