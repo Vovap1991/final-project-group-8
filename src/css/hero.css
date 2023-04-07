@@ -108,7 +108,7 @@
       url(../img/hero-mobile-1x-min.png);
     padding-top: 381px;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     border-radius: 30px;
   }
   @media (min-device-pixel-ratio: 2),
@@ -139,7 +139,7 @@
   .button-hero-one {
     background: #fd9222;
     border-radius: 100px;
-    padding: 14px 40px;
+    padding: 12px 28px;
     color: #ffffff;
     border: none;
     font-family: 'Montserrat';
@@ -152,7 +152,7 @@
   .button-hero-two {
     border: 1px solid #ffffff;
     border-radius: 100px;
-    padding: 14px 40px;
+    padding: 12px 28px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -164,6 +164,7 @@
   .list-button-hero {
     display: flex;
     gap: 14px;
+    margin-bottom: 32px;
   }
   .scroll-hero {
     font-family: 'Montserrat';
@@ -174,7 +175,6 @@
     color: #ffffff;
     display: flex;
     gap: 14px;
-    margin-left: auto;
     align-items: center;
   }
   .scroll-hero-btn {
@@ -188,6 +188,7 @@
   }
   .hero-span-ul {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -286,6 +287,7 @@
   }
   .hero-span-ul {
     display: flex;
+    flex-wrap: nowrap;
   }
 }
 
