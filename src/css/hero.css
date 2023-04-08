@@ -1,103 +1,94 @@
-@media screen and (min-width: 320px) and (max-width: 374px) {
-  .container {
-    width: 100%;
-  }
+.hero-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(../img/hero-mobile-1x-min.png);
+  padding-top: 381px;
+  background-size: cover;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-section {
     background-image: linear-gradient(
         180deg,
         rgba(17, 17, 17, 0) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(../img/hero-mobile-1x-min.png);
-    padding-top: 381px;
-    background-size: cover;
-    padding-bottom: 20px;
-    border-radius: 30px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-section {
-      background-image: linear-gradient(
-          180deg,
-          rgba(17, 17, 17, 0) 0%,
-          rgba(17, 17, 17, 0.4) 100%
-        ),
-        url(../img/hero-mobile-2x-min.png);
-    }
-  }
-  .title-hero {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(24 / 20);
-    letter-spacing: -0.03em;
-    color: #fff;
-    /* height: 72px;
-    width: 299px; */
-    margin-bottom: 32px;
-  }
-  .button-hero-one {
-    background: #fd9222;
-    border-radius: 100px;
-    padding: 12px 28px;
-    color: #ffffff;
-    border: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: calc(17 / 14);
-    cursor: pointer;
-  }
-  .button-hero-two {
-    border: 1px solid #ffffff;
-    border-radius: 100px;
-    padding: 12px 28px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: calc(17 / 14);
-    color: #ffffff;
-    background: none;
-  }
-  .list-button-hero {
-    display: flex;
-    gap: 14px;
-    margin-bottom: 32px;
-  }
-  .scroll-hero {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-    color: #ffffff;
-    display: flex;
-    gap: 14px;
-    /* margin-left: auto; */
-    align-items: center;
-  }
-  .scroll-hero-btn {
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 8px;
-    border: none;
-    fill: #fd9222;
-    width: 38px;
-    height: 38px;
-  }
-  .hero-span-ul {
-    display: flex;
-    flex-wrap: wrap;
+      url(../img/hero-mobile-2x-min.png);
   }
 }
+.title-hero {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.button-hero-one {
+  background: #fd9222;
+  border-radius: 100px;
+  padding: 12px 28px;
+  color: #ffffff;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  cursor: pointer;
+}
+.button-hero-two {
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  padding: 12px 28px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #ffffff;
+  background: none;
+}
+.list-button-hero {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+.scroll-hero {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  color: #ffffff;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.scroll-hero-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 8px;
+  border: none;
+  fill: #fd9222;
+  width: 38px;
+  height: 38px;
+}
+.hero-span-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 375px) {
-  .container {
-  }
   .hero-section {
     background-image: linear-gradient(
         180deg,
@@ -292,7 +283,7 @@
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
