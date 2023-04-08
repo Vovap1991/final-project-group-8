@@ -1,7 +1,7 @@
 .top-sellers-title {
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2em;
   text-align: Center;
   color: var(--black-color);
   font-style: normal;
@@ -13,7 +13,7 @@
 .top-sellers-title--orange {
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2em;
   text-align: Center;
   color: var(--orange-color);
 }
@@ -21,7 +21,7 @@
 .top-sellers-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px 16px;
 }
 
 .top-sellers-item {
@@ -56,9 +56,8 @@
 
 .top-sellers-text {
   font-size: 14px;
-  line-height: 18px;
-  padding-top: 4px;
-  padding-bottom: 18px;
+  line-height: 1.2em;
+  padding-bottom: 12px;
 }
 
 .top-sellers-btn {
@@ -70,7 +69,7 @@
   width: 120px;
   background-color: var(--orange-color);
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.2em;
   text-align: center;
   color: var(--white-color);
 }
@@ -84,19 +83,20 @@
 
   .top-sellers-title {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2em;
     margin-bottom: 50px;
   }
 
   .top-sellers-title--orange {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2em;
   }
 
   .top-sellers-list {
     flex-direction: row;
     align-items: normal;
     flex-wrap: wrap;
+    gap: 32px 16px;
   }
 
   .top-sellers-item {
@@ -119,21 +119,21 @@
 
   .top-sellers-text {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.2em;
     padding: 0;
   }
 
   .top-sellers-btn {
     margin-left: auto;
     border: none;
-    padding: 12px 28px;
+    padding: 14px 40px;
     cursor: pointer;
     font-family: Montserrat, sans-serif;
     border-radius: 100px;
     width: 162px;
     background-color: var(--orange-color);
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.2em;
     text-align: center;
     color: var(--white-color);
   }
@@ -146,13 +146,13 @@
 
   .top-sellers-title {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2em;
     margin-bottom: 50px;
   }
 
   .top-sellers-title--orange {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2em;
   }
 
   .top-sellers-list {
