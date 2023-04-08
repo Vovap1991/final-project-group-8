@@ -252,13 +252,14 @@ display: block;
 
         
 }
+
 .decoration {
-   /* content: "";
+    content: "";
     height: 124px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     
-    display: inline-block;
-    */
+   
+    
     
 
    
@@ -273,6 +274,10 @@ flex-wrap: nowrap;
 gap: 70px;
     
 }
-
+.advantages-content{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
 
 }
