@@ -1,6 +1,6 @@
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
-    max-width: 428px;
+    width: 100%;
   }
   .hero-section {
     background-image: linear-gradient(
@@ -95,9 +95,8 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
   .container {
-    max-width: 428px;
   }
   .hero-section {
     background-image: linear-gradient(
@@ -133,7 +132,7 @@
     letter-spacing: -0.03em;
     color: #fff;
     height: 72px;
-    width: 299px;
+    width: 290px;
     margin-bottom: 32px;
   }
   .button-hero-one {
@@ -259,10 +258,12 @@
     line-height: calc(17 / 14);
     color: #ffffff;
     background: none;
+    cursor: pointer;
   }
   .list-button-hero {
     display: flex;
     gap: 14px;
+    margin-bottom: 0;
   }
   .scroll-hero {
     font-family: 'Montserrat';
@@ -385,83 +386,6 @@
   }
   .hero-span-ul {
     display: flex;
+    flex-wrap: nowrap;
   }
 }
-
-/* .hero-section {
-  background-image: linear-gradient(
-      180deg,
-      rgba(17, 17, 17, 0) 0%,
-      rgba(17, 17, 17, 0.4) 100%
-    ),
-    url(../img/hero-desktop-1x-min.png);
-  padding-top: 381px;
-  background-size: cover;
-  padding-bottom: 40px;
-  border-radius: 30px;
-}
-.title-hero {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: calc(34 / 28);
-  letter-spacing: -0.03em;
-  color: #fff;
-  height: 102px;
-  width: 484px;
-  margin-bottom: 32px;
-}
-.button-hero-one {
-  background: #fd9222;
-  border-radius: 100px;
-  padding: 14px 40px;
-  color: #ffffff;
-  border: none;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: calc(17 / 14);
-  cursor: pointer;
-}
-.button-hero-two {
-  border: 1px solid #ffffff;
-  border-radius: 100px;
-  padding: 14px 40px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: calc(17 / 14);
-  color: #ffffff;
-  background: none;
-}
-.list-button-hero {
-  display: flex;
-  gap: 14px;
-}
-.scroll-hero {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(18 / 14);
-  color: #ffffff;
-  display: flex;
-  gap: 14px;
-  margin-left: auto;
-  align-items: center;
-}
-.scroll-hero-btn {
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 8px;
-  border: none;
-  fill: #fd9222;
-  width: 38px;
-  height: 38px;
-}
-.hero-span-ul {
-  display: flex;
-} */
