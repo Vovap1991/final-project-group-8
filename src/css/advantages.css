@@ -1,17 +1,14 @@
-
 @media screen and (min-width: 320px) and (max-width:374px) {
     .container {
     width: 100%;
     margin: 0 auto;
     
      }
-.section-advantages {
-   padding: 20px;
-    background-color: var(--dark-purple-color);
-}
 
-.section-advantages-titel {
-    
+.section-advantages {
+   padding-top: 20px;
+   padding-bottom: 36px;
+    background-color: var(--dark-purple-color);
 }
 
 .advantages-list {
@@ -26,16 +23,9 @@
     list-style: none;
 }
 
-.advantages-item {
-    }
-
 .advantages-icon-content {
     margin-bottom: 22px;
 }
-
-.advantages-icon-list {}
-
-.advantages-icon-item {}
 
 .advantages-icon-link {
     display: flex;
@@ -88,12 +78,13 @@
     .container {
         max-width: 335px;
         margin: 0 auto;
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 20px;
+        padding-left: 20px;
         
     }
 .section-advantages {
-          padding: 20px;
+    padding-top: 20px;
+   padding-bottom: 36px;
              background-color: var(--dark-purple-color);
                 }
             
@@ -109,10 +100,6 @@
               clip: rect(0 0 0 0);
               overflow: hidden;
           }
-    
- .section-advantages-titel {
-           
-        }
     
 .advantages-list {
             display: flex;
@@ -136,10 +123,7 @@
         .advantages-icon-content {
             margin-bottom: 22px;
         }
-    
-        .advantages-icon-list {}
-    
-        .advantages-icon-item {}
+
     
         .advantages-icon-link {
             display: flex;
@@ -182,21 +166,16 @@
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        padding-right: 32px;
+        padding-left: 32px;
         
     }
         .section-advantages {
             padding-top: 50px;
-            padding-bottom: 50px;
-            padding-left: 32px;
-                padding-right: 32px;
+            padding-bottom: 85px;
         }
-.advantages-content{
-    
-    
-   
 
 
-}
 .advantages-list{
    display: flex;
  flex-wrap: wrap;
@@ -216,15 +195,16 @@ position: relative;
 
 
 /*------Desktop------*/
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-        
+        padding-right: 50px;
+        padding-left: 50px;
         
     }
 .section-advantages {
-    padding-left: 50px;
-        padding-right: 50px;
+    padding-bottom: 50px;
+
 }
 
 .advantages-item {
