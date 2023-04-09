@@ -1,0 +1,142 @@
+.section-subscribe {
+    max-height: 370px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)),
+            url('../img/subs-chocolate-mobile-1x-min.png');
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 63px;
+    max-width: 375px;
+    height: 370px;
+}
+@media screen and (min-width: 375px) {
+    .section-subscribe {
+        width: 375px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section-subscribe {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)),
+                url('../img/subs-chocolate-mobile-2x-min.png');
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-subscribe {
+        width: 100%;
+        max-width: 768px;
+        padding: 0 150px;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.2)),
+            url('../img/subs-chocolate-tablet-1x-min.png');
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section-subscribe {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)),
+                url('../img/subs-chocolate-tablet-2x-min.png');
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-subscribe {
+        max-width: 1200px;
+        padding: 0 366px;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.2)),
+            url('../img/subs-chocolate-desktop-1x-min.png');
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .section-subscribe {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.2)),
+                url('../img/subs-chocolate-desktop-2x-min.png');
+        }
+    }
+}
+
+.subscribe-name {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #ffffff;
+padding-top: 62px;
+margin-bottom: 24px;
+text-align: center;
+}
+@media screen and (min-width: 768px) {
+.subscribe-name {
+        font-size: 24px;
+        color: #ffffff;
+        padding-top: 72px;
+        text-align: center;
+        padding-left: auto;
+    }
+}
+
+.subscribe-text {
+display: flex;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: -0.02em;
+text-align: center;
+color: #ffffff;
+margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .subscribe-text {
+width: 468px;
+    }
+}
+.subscribe-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #FD9222;
+    background-color: #FCF1E0;
+    border-radius: 100px;
+    padding: 12px 28px;
+    align-items: center;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    .subscribe-button {
+    font-size: 18px;
+    line-height: 17px;
+    }
+}
+
+.subscribe-button:hover, .subscribe-button:focus {
+background-color: #FD9222;
+color: #FFFFFF;
+}
