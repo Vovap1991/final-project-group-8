@@ -55,6 +55,17 @@
     gap: 14px;
 }
 
+.footer-social-list-link {
+    stroke: var(--white-color);
+    transition: stroke 250ms linear;
+    
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus{
+    stroke: var(--orange-color);
+}
+
 .footer-line {
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
