@@ -99,10 +99,17 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.text-scroll:hover + .scroll-hero-btn {
+  fill: #ffffff;
+  background-color: #fd9222;
+}
+
 .scroll-hero:hover,
 .scroll-hero:focus {
   color: #fd9222;
 }
+
 .scroll-hero-btn:hover,
 .scroll-hero-btn:focus {
   fill: #ffffff;
