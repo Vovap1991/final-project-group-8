@@ -1,4 +1,9 @@
 .products-section {
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.container {
   position: relative;
 }
 
@@ -20,9 +25,11 @@
 }
 
 .products-list {
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 18px;
 }
 
 .products-item {
@@ -86,7 +93,7 @@
 
 .products-slider .slick-dots {
   position: absolute;
-  top: 90%;
+  top: 105%;
   display: flex;
   gap: 13px;
 }
@@ -112,6 +119,16 @@
 }
 
 @media only screen and (min-width: 375px) {
+  .products-section {
+    padding: 0 0 72px 0;
+  }
+
+  .products-header,
+  .products-header-orange {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
   .products-item {
     margin-right: 18px;
   }
