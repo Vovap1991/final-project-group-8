@@ -43,7 +43,7 @@ body {
     font-size: 14px;
     font-style: normal;
     color: var(--black-color);
-    background-color: var(--white-color);
+    background-color: #E2E2E2;
 }
 
 :root {
@@ -71,12 +71,20 @@ body {
       padding-left: 32px;
       padding-right: 32px;
     }
+
+    .section {
+      padding-bottom: 100px;
+  }
 }
 
 @media only screen and (min-width: 1158px) {
     .container {
       max-width: 1200px;
     }
+
+    .section {
+      padding-bottom: 128px;
+  }
 }
 
 
