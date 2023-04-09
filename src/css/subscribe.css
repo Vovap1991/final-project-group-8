@@ -1,5 +1,4 @@
 .section-subscribe {
-    max-height: 370px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -11,12 +10,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 63px;
-    max-width: 375px;
-    height: 370px;
+    padding-top: 62px;
 }
 @media screen and (min-width: 375px) {
     .section-subscribe {
-        width: 375px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -34,8 +31,7 @@
 @media screen and (min-width: 768px) {
     .section-subscribe {
         width: 100%;
-        max-width: 768px;
-        padding: 0 150px;
+        padding-bottom: 72px;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.2),
                 rgba(0, 0, 0, 0.2)),
@@ -56,8 +52,10 @@
 
 @media screen and (min-width: 1200px) {
     .section-subscribe {
-        max-width: 1200px;
-        padding: 0 366px;
+        padding-left: 366px;
+        padding-right: 366px;
+        padding-top: 72px;
+        padding-bottom: 72px;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.2),
                 rgba(0, 0, 0, 0.2)),
@@ -82,15 +80,16 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color: #ffffff;
-padding-top: 62px;
 margin-bottom: 24px;
 text-align: center;
 }
 @media screen and (min-width: 768px) {
 .subscribe-name {
+        width: 378px;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 24px;
         color: #ffffff;
-        padding-top: 72px;
         text-align: center;
         padding-left: auto;
     }
@@ -110,7 +109,13 @@ margin-bottom: 24px;
 
 @media screen and (min-width: 768px) {
     .subscribe-text {
-width: 468px;
+        width: 468px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 .subscribe-button {
@@ -118,8 +123,8 @@ width: 468px;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.2;
-    color: #FD9222;
-    background-color: #FCF1E0;
+    background-color: #FD9222;
+    color: #FFFFFF;
     border-radius: 100px;
     padding: 12px 28px;
     align-items: center;
@@ -137,6 +142,6 @@ width: 468px;
 }
 
 .subscribe-button:hover, .subscribe-button:focus {
-background-color: #FD9222;
-color: #FFFFFF;
+    color: #FD9222;
+    background-color: #FCF1E0;
 }
