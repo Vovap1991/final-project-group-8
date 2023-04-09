@@ -95,14 +95,19 @@
   height: 38px;
   background-color: #ffffff;
 }
+
+.hero-scroll-icon {
+  fill: #fd9222;
+}
+
+.hero-scroll-icon:hover,
+.hero-scroll-icon:focus {
+  fill: #ffffff;
+}
+
 .hero-span-ul {
   display: flex;
   flex-wrap: wrap;
-}
-
-.text-scroll:hover + .scroll-hero-btn {
-  fill: #ffffff;
-  background-color: #fd9222;
 }
 
 .scroll-hero:hover,
@@ -115,6 +120,7 @@
   fill: #ffffff;
   background-color: #fd9222;
 }
+
 @media screen and (min-width: 375px) {
   .hero-section {
     background-image: linear-gradient(
