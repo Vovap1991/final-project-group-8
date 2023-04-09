@@ -83,7 +83,7 @@
 }
 }
 
-
+/* Mobile*/
 @media  only screen and (min-width: 375px) {
     .container {
         max-width: 335px;
@@ -198,8 +198,7 @@
 
 }
 .advantages-list{
-   
- display: flex;
+   display: flex;
  flex-wrap: wrap;
  column-gap: 60px;
  row-gap: 32px;
@@ -214,8 +213,6 @@ position: relative;
 
 }
 }
-
-
 
 
 /*------Desktop------*/
