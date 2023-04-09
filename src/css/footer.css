@@ -48,6 +48,12 @@
     line-height: calc(18 / 14);
     letter-spacing: -0.02em;
     color: var(--white-color);
+    transition: color 250ms linear;
+}
+
+.footer-contact-list-item:hover,
+.footer-contact-list-item:focus {
+    color: var(--orange-color);
 }
 
 .footer-social-list {
@@ -84,6 +90,12 @@
     line-height: calc(16 / 14);
     letter-spacing: -0.02em;
     color: var(--white-color);
+    transition: color 250ms linear;
+}
+
+.footer-nav-list-item:hover,
+.footer-nav-list-item:focus {
+    color: var(--orange-color);
 }
 
 @media screen and (min-width: 375px) {
