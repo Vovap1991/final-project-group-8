@@ -43,16 +43,20 @@ img {
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
-  list-style-image: url('../img/ellipse.svg');
 }
-
-.how-its-items::before {
+.how-its-items-li {
+  position: relative;
+}
+.how-its-items-li p::before {
+  content: '';
+  position: absolute;
+  display: block;
   box-sizing: border-box;
   width: 8px;
   height: 8px;
-  left: 0px;
+  border-radius: 50%;
+  left: -16px;
   top: 5px;
-
   background: #4c4c4c;
   border: 1px solid #eceded;
 }
