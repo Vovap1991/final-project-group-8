@@ -1,11 +1,9 @@
 
-/*@media  only screen and (min-width: 375px)  {
+@media screen and (min-width: 320px) and (max-width:374px) {
     .container {
     width: 100%;
     margin: 0 auto;
-    
-    
-    }
+     }
 .section-advantages {
     padding:20px;
     background-color: var(--dark-purple-color);
@@ -19,9 +17,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
-
-}
+   }
 
 .list {
     padding: 0;
@@ -30,11 +26,7 @@
 }
 
 .advantages-item {
-    
-    
-    
-     
-}
+    }
 
 .advantages-icon-content {
     margin-bottom: 22px;
@@ -45,8 +37,7 @@
 .advantages-icon-item {}
 
 .advantages-icon-link {
-    
-display: flex;
+    display: flex;
     width: 62px;
     height: 62px;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -63,7 +54,6 @@ display: flex;
 }
 
 .advantages-titel {
-
     font-weight: 600;
     font-size: 18px;
     line-height: 1.2;
@@ -72,13 +62,10 @@ display: flex;
 }
 
 .advantages-subtitel {
-
-
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: -0.02em;
-
     color: rgba(255, 255, 255, 0.7);
 }
 .hidden {
@@ -93,7 +80,8 @@ display: flex;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-}*/
+}
+
 
 @media  only screen and (min-width: 375px) {
     .container {
@@ -104,7 +92,7 @@ display: flex;
     }
 .section-advantages {
            padding: 20px;
-                    background-color: var(--dark-purple-color);
+             background-color: var(--dark-purple-color);
                 }
             
           .hidden {
@@ -120,17 +108,15 @@ display: flex;
               overflow: hidden;
           }
     
-     
-    
-     .section-advantages-titel {
+ .section-advantages-titel {
            
         }
     
-        .advantages-list {
-        display: flex;
+.advantages-list {
+            display: flex;
             flex-wrap: wrap;
-          gap: 20px;
-          justify-content: center;
+            gap: 20px;
+            justify-content: center;
           align-items: center;
     
         }
@@ -143,9 +129,7 @@ display: flex;
     
         .advantages-item {
             width:  308px;
-           
-            
-        }
+           }
     
         .advantages-icon-content {
             margin-bottom: 22px;
@@ -157,7 +141,6 @@ display: flex;
     
         .advantages-icon-link {
             display: flex;
-    
             width: 62px;
             height: 62px;
             border: 1px solid rgba(255, 255, 255, 0.5);
@@ -183,13 +166,10 @@ display: flex;
         }
     
         .advantages-subtitel {
-    
-    
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
             letter-spacing: -0.02em;
-    
             color: rgba(255, 255, 255, 0.7);
         }
 }
