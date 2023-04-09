@@ -1,6 +1,7 @@
 .products-section {
   padding-left: 52px;
   padding-right: 52px;
+  padding-bottom: 92px;
 }
 
 .container {
@@ -25,7 +26,6 @@
 }
 
 .products-list {
-  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,9 +120,10 @@
 
 @media only screen and (min-width: 375px) {
   .products-section {
-    padding: 0 0 72px 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 120px;
   }
-
   .products-header,
   .products-header-orange {
     font-size: 24px;
@@ -136,5 +137,11 @@
   .products-item {
     max-width: 270px;
     height: 364px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .products-section {
+    padding-bottom: 148px;
   }
 }
