@@ -43,7 +43,6 @@
 }
 
 .footer-contact-list-item {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(18 / 14);
     letter-spacing: -0.02em;
@@ -137,12 +136,16 @@
     }
 }
 
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1200px) {
     .container {
       max-width: 1200px;
     }
 
     .footer-extra-wrap {
         margin-bottom: 62px;
+    }
+
+    .footer-contact {
+        margin-right: 63px;
     }
 }
