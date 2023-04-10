@@ -1,4 +1,5 @@
 .hero-section {
+  margin-bottom: 72px;
   background-image: linear-gradient(
       180deg,
       rgba(17, 17, 17, 0) 0%,
@@ -9,7 +10,6 @@
   background-size: cover;
   padding-bottom: 20px;
   border-radius: 30px;
-  margin-bottom: 72px;
 }
 
 @media (min-device-pixel-ratio: 2),
