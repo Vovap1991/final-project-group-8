@@ -11,6 +11,7 @@
   border-radius: 30px;
   margin-bottom: 72px;
 }
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -160,6 +161,7 @@
     width: 290px;
     margin-bottom: 32px;
   }
+
   .button-hero-one {
     background: #fd9222;
     border-radius: 100px;
