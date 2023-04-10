@@ -47,6 +47,8 @@
   font-size: 14px;
   line-height: calc(17 / 14);
   cursor: pointer;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero-one:hover,
 .button-hero-one:focus {
@@ -64,6 +66,8 @@
   line-height: calc(17 / 14);
   color: #ffffff;
   background: none;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero-two:hover,
 .button-hero-two:focus {
@@ -86,6 +90,7 @@
   display: flex;
   gap: 14px;
   align-items: center;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-scroll-icon {
   cursor: pointer;
@@ -96,6 +101,8 @@
   height: 38px;
   fill: #fd9222;
   background-color: #ffffff;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .scroll-hero:is(:hover, :focus) {
