@@ -117,6 +117,7 @@ margin-bottom: 24px;
         padding-right: 0;
     }
 }
+
 .subscribe-button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -132,7 +133,9 @@ margin-bottom: 24px;
     justify-content: center;
     display: block;
     margin: 0 auto;
+    transition: color 250ms linear, background-color 250ms linear;
 }
+
 @media screen and (min-width: 768px) {
     .subscribe-button {
     font-size: 18px;
