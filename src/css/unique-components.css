@@ -1,99 +1,98 @@
 /*section uniqui*/
 
 .unique {
-    color: var(--color-black);
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-        justify-content: center;
-        line-height: 1.2;
+padding-top: 72px;
+padding-bottom: 72px;
+color: var(--color-black);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+justify-content: center;
+line-height: 1.2;
 }
 
 .container-top-name {
-    margin-top: 72px;
-    width: 335px;
+max-width: 375px;
 }
 
 .unique-name {
-    width: 283px;
-    /*margin-top: 72px;*/
-    margin-bottom: 28px;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
+width: 283px;
+margin-bottom: 24px;
+font-weight: 600;
+font-size: 20px;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+margin-left: auto;
+margin-right: auto;
 }
 
 .color-uniq {
-    color: #FD9222;
+color: #FD9222;
 }
 
 .text-card-one {
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    line-height: 1;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: -0.02em;
+line-height: 1;
 }
 
 .unique-main-text {
-    width: 289px;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    margin-bottom: 32px;
+font-size: 14px;
+letter-spacing: -0.02em;
+margin-bottom: 32px;
 }
 
 .unique-card {
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    text-decoration: none;
+display: flex;
+position: relative;
+overflow: hidden;
+width: 100%;
+justify-content: center;
+align-items: center;
+gap: 20px;
+text-decoration: none;
 }
 
 .unique-one{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 20px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 20px;
 }
 
 .unique-name-two {
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
 .unique-name-three {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    color: var(--color-black);
+font-weight: 600;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: -0.02em;
+color: var(--color-black);
 }
 
 .card-text{
-    text-align: left;
-    margin: 28px 28px;
-    text-decoration: none;
+text-align: left;
+margin: 28px 28px;
+text-decoration: none;
 }
 .card-img-chocolate {
-    border: 1px solid #FD9222;
-    border-radius: 15px;
-    background-color: #FD9222;
+border: 1px solid #FD9222;
+border-radius: 15px;
+background-color: #FD9222;
 
 }
 
 .card-img-milk {
-    border: 1px solid #FD9222;
-    border-radius: 15px;
-    background-color: #FFFFFF;
+border: 1px solid #FD9222;
+border-radius: 15px;
+background-color: #FFFFFF;
 
 }
 
@@ -179,7 +178,7 @@
     }
 
     .container-top-name {
-        width: 100%;
+        max-width: 768px;
     }
 
     .unique-main-text {
@@ -195,6 +194,7 @@
         width: 411px;
         font-size: 24px;
         line-height: 1.1;
+        margin-bottom: 28px;
     }
 
     .unique-card {
@@ -205,10 +205,6 @@
         padding-left: 0;
         border-radius: 15px;
     }
-    /*
-    .img-card {
-        width: 336px;
-    }*/
 
     .img-uniq {
         width: 224px;
@@ -237,7 +233,12 @@
         padding-bottom: 128px;
     }
 
+    .container-top-name {
+        max-width: 1200px;
+    }
+
     .container-unique {
+        width: 100%;
         justify-content: center;
         display: flex;
     }
