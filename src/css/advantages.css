@@ -23,6 +23,7 @@
     list-style: none;
 }
 
+
 .advantages-icon-content {
     margin-bottom: 22px;
 }
@@ -117,7 +118,8 @@
         }
     
         .advantages-item {
-            width:  308px;
+            
+            
            }
     
         .advantages-icon-content {
@@ -187,8 +189,8 @@
 }
 
 .advantages-item{
-width: 308px;
-position: relative;
+
+
 
 }
 }
