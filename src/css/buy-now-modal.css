@@ -138,10 +138,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.12;
-
-
     letter-spacing: -0.02em;
-
     color: rgba(64, 64, 64, 0.3);
 }
 
@@ -214,11 +211,11 @@
 
 .mobile-code::after {
     content: "";
-    width: 24px;
+    width: 28px;
     height: 1px;
     background: rgba(17, 17, 17, 0.05);
     display: block;
-    rotate: 90deg;
+    transform: rotate(90deg);
     position: absolute;
     top: 50%;
     left: 90%;
