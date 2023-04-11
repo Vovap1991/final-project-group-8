@@ -1,0 +1,143 @@
+.products-section {
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-bottom: 92px;
+}
+
+.container {
+  position: relative;
+}
+
+.products-header,
+.products-header-orange {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin-bottom: 32px;
+}
+
+.products-header-orange {
+  margin-left: 7px;
+  color: var(--orange-color);
+}
+
+.products-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.products-item {
+  width: 100%;
+  height: auto;
+  padding: 32px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.products-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-card {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-name {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.product-type {
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+  margin-bottom: 18px;
+}
+
+.product-price {
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: ;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.products-slider .slick-dots {
+  position: absolute;
+  top: 105%;
+  display: flex;
+  gap: 13px;
+}
+
+.products-slider .slick-dots li {
+  list-style: none;
+}
+
+.products-slider .slick-dots button {
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  background: rgba(17, 17, 17, 0.1);
+  border-radius: 50%;
+  border: none;
+}
+
+.products-slider .slick-dots li.slick-active button {
+  width: 28px;
+  height: 13px;
+  background: var(--orange-color);
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 376px) {
+  .products-section {
+    padding: 0 0 120px 0;
+  }
+  .products-header,
+  .products-header-orange {
+    font-size: 24px;
+  }
+
+  .products-item {
+    margin-right: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .products-item {
+    max-width: 270px;
+    height: auto;
+  }
+  .products-section {
+    padding-bottom: 148px;
+  }
+}

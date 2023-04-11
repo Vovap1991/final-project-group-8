@@ -1,0 +1,323 @@
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal {
+    width: 95%;
+    max-width: 311px;
+    height: 95%;
+    max-height: 1058px;
+    background: #FAFAFA;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 24px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: scroll;
+}
+
+.modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background-color: #FAFAFA;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-close-button {
+    width: 24px;
+    height: 24px;
+    stroke: #111111;
+
+}
+
+.modal-title {
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.modal-title-special {
+    color: #FD9222;
+}
+
+.button {
+    padding: 6px 16px;
+    background: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-right: 16px;
+    cursor: pointer;
+
+    color: #111111;
+}
+
+.modal-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 263px;
+    height: 85px;
+
+    margin-bottom: 8px;
+}
+
+.modal-img {
+    margin-left: 16px;
+    width: 84px;
+    height: 69px;
+}
+
+.form-modal {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.modal-label {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.modal-input {
+    width: 100%;
+    min-width: 263px;
+    min-height: 45px;
+
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+    padding: 14px 18px;
+    background: #FAFAFA;
+    letter-spacing: -0.02em;
+
+
+}
+
+.modal-input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    color: rgba(64, 64, 64, 0.3);
+}
+
+.form-group {
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.form-group-two {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.form-textarea {
+    min-width: 263px;
+    min-height: 91px;
+    resize: none;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+    background: #FAFAFA;
+    padding: 14px 18px;
+}
+
+.modal-btn {
+    background: #FD9222;
+    border-radius: 100px;
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.12;
+
+    border: none;
+
+    color: #FFFFFF;
+    min-width: 109px;
+    min-height: 41px;
+}
+
+.modal-icon-card {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+.modal-icon-ukr {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+
+.mobile-code {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.12;
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.mobile-code::after {
+    content: "";
+    width: 28px;
+    height: 1px;
+    background: rgba(17, 17, 17, 0.05);
+    display: block;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+.modal-input-phone {
+    padding-left: 100px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .modal {
+
+        max-width: 609px;
+
+        max-height: 1058px;
+        background: #FAFAFA;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 48px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+    .modal-title {
+
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+
+
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+    }
+
+    .modal-close {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        background-color: #FAFAFA;
+        border: none;
+
+        cursor: pointer;
+    }
+
+    .modal-close-button {
+        width: 28px;
+        height: 28px;
+    }
+
+    .modal-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .modal-items {
+        flex-direction: column;
+        width: 160px;
+        height: 196px;
+        justify-content: space-around;
+    }
+
+    .modal-img {
+        margin: 0;
+        width: 120px;
+        height: 107px;
+    }
+
+    .button {
+        padding: 8px 29px;
+        margin: 0;
+    }
+
+    .form-group {
+        flex-direction: row;
+        gap: 21px;
+    }
+
+    .modal-name {
+        min-width: 246px;
+    }
+
+    .form-textarea {
+        min-width: 513px;
+        min-height: 137px;
+    }
+
+    .modal-input {
+        width: 100%;
+        min-width: 263px;
+        min-height: 66px;
+
+        border: 1.5px solid rgba(17, 17, 17, 0.05);
+        filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+        border-radius: 8px;
+        padding: 14px 18px;
+        background: #FAFAFA;
+        letter-spacing: -0.02em;
+
+
+    }
+}
+
