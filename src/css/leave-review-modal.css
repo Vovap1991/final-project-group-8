@@ -141,7 +141,7 @@
     transform: translateY(-50%);
 }
 
-.form-textarea {
+.form-textarea-rew {
     min-width: 263px;
     min-height: 91px;
     resize: none;
@@ -207,7 +207,7 @@
         color: #FD9222;
     }
 
-    .form-textarea {
+    .form-textarea-rew {
         min-width: 437px;
         min-height: 137px;
         resize: none;
