@@ -7,6 +7,8 @@
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smoothpx;
 }
 
 .logo-orang {
