@@ -21,7 +21,7 @@
     />
     
     <script type="module" crossorigin src="/final-project-group-8/assets/index-5bcd1419.js"></script>
-    <link rel="stylesheet" href="/final-project-group-8/assets/index-38ffa571.css">
+    <link rel="stylesheet" href="/final-project-group-8/assets/index-854f782d.css">
   </head>
   <body>
     <header class="header">
@@ -112,7 +112,7 @@
     </p>
     <div class="hero-span-ul">
       <ul class="list-button-hero">
-        <li><button type="button" class="button-hero-one">Buy now</button></li>
+        <li><button type="button" class="button-hero-one" data-modal-open>Buy now</button></li>
         <li>
           <button type="button" class="button-hero-two">
             <a href="#how-it-made">How it’s made </a>
@@ -819,9 +819,8 @@ the finest ingredients to handcrafting each piece, our attention to detail is ev
 </div>
 </div>
 
-    <div class="backdrop is-hidden">
-    <div class="modal data-modal">
-        <button type="button" class="modal-close data-modal-close">
+        <div class="modal is-hidden" data-modal>
+        <button type="button" class="modal-close" data-modal-close>
             <svg class="modal-close-button">
                 <use href="/final-project-group-8/assets/symbol-defs-3c5a25ad.svg#icon-close"></use>
             </svg></button>
@@ -884,7 +883,7 @@ the finest ingredients to handcrafting each piece, our attention to detail is ev
             <button type="submit" class="modal-btn">Submit</button>
         </form>
     </div>
-</div>
+
     <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal data-modal">
         <button type="button" class="modal-close data-modal-close">
