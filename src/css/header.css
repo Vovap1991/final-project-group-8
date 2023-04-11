@@ -1,7 +1,5 @@
 .header {
-  /* padding: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 20px 14px 20px;
 }
 
 .header-container {
@@ -15,7 +13,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
-  color: #111111;
+  color: var(--black-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,8 +24,7 @@
 .header-logo-span {
   font-style: normal;
 }
-.header-logo-icon {
-}
+
 .menu-button {
   display: inline-flex;
   margin: 0;
@@ -35,7 +32,7 @@
   border: none;
   background-color: transparent;
   margin-left: auto;
-  stroke: #111111;
+  stroke: var(--black-color);
 }
 
 .header-nav-wrap {
@@ -46,7 +43,6 @@
   position: fixed;
   right: 0;
   top: 0;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,23 +76,23 @@
   border: none;
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-btn-menu-close:is(:hover, :focus) {
-  stroke: #fd9222;
+  stroke: var(--orange-color);
 }
-.header-navigation {
-}
+
 .header-list {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 136px;
+  left: 56px;
   gap: 24px;
   margin-top: 100px;
   margin-left: 50px;
 }
-.header-item {
-}
+
 .header-link {
-  /* display: flex; */
-  /* align-items: center; */
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -106,42 +102,26 @@
   letter-spacing: -0.02em;
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* position: relative; */
 }
 .header-link:is(:hover, :focus) {
   color: var(--orange-color);
 }
-/* .header-link.active{
-    color: var(--orange-color);
-}
-.header-link.active::after{
-content: "";
-width: 100%;
-height: 1px;
-background-color: var(--orange-color);
-position: absolute;
-left: 0px;
-bottom: -8px;
-} */
+
 .mobile-social {
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 .mobile-social-list {
   display: flex;
   gap: 18px;
-  padding-left: 20px;
-  padding-bottom: 20px;
 }
-.mobile-social-item {
-}
+
 .mobile-social-link {
-  stroke: #ffffff;
+  fill: #fff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-social-link:is(:hover, :focus) {
-  fill: #fd9222;
-}
-.mobil-social-icon {
+  fill: var(--orange-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -155,15 +135,29 @@ bottom: -8px;
     padding-left: 32px;
     padding-right: 32px;
   }
+
   .header-nav-wrap {
     width: 290px;
   }
+
+  .header-list {
+    top: 156px;
+    left: 85px;
+  }
+
   .header-link {
     font-weight: 600;
   }
-  .header-btn-menu-close {
+
+  .menu-button svg,
+  .header-btn-menu-close svg {
     width: 32px;
     height: 32px;
+  }
+
+  .mobile-social {
+    margin-left: 32px;
+    margin-bottom: 24px;
   }
 }
 
@@ -171,13 +165,25 @@ bottom: -8px;
   .container {
     max-width: 1200px;
   }
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .header {
+    padding-bottom: 32px;
+  }
+
+  .header-logo {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
   .header-nav-wrap {
     display: flex;
     flex-direction: row;
     width: unset;
     height: unset;
     position: static;
-    padding: 0;
     align-items: center;
     opacity: 1;
     visibility: visible;
@@ -193,13 +199,12 @@ bottom: -8px;
     display: none;
   }
   .header-list {
+    position: unset;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    margin-top: 0px;
-    margin-left: 188px;
+    gap: 24px;
   }
 
   .header-link {
@@ -211,26 +216,25 @@ bottom: -8px;
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
-    color: #111111;
+    color: var(--black-color);
   }
 
   .mobile-social-list {
     padding-bottom: 0px;
     margin-left: 137px;
-    /* margin-left: 0 auto; */
   }
   .mobile-social-link {
-    fill: #111111;
-    /* stroke: #111111; */
+    fill: var(--black-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-social-link:is(:hover, :focus) {
-    fill: #fd9222;
+    fill: var(--orange-color);
   }
   .mobile-social-list:not(:last-child) {
     gap: 0px;
   }
   .mobile-social {
+    margin-left: 137px;
     margin-bottom: 0px;
   }
 }
