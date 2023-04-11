@@ -19,6 +19,10 @@
 
 } */
 
+.backdrop.is-hidden .modal-rew {
+    transform: translate(-50%, -50%) scale(0.7);
+}
+
 .modal-rew {
 
     max-width: 311px;
