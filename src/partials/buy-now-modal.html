@@ -1,33 +1,51 @@
-    <div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
             <svg class="modal-close-button">
                 <use href="./img/symbol-defs.svg#icon-close"></use>
             </svg></button>
-        <h3 class="modal-title"><span class="modal-title-special">BUY</span> NOW</h3>
+        <h3 class="modal-title"><span class="modal-title-special">BUY</span>NOW</h3>
         <ul class="modal-list">
             <li class="modal-items">
-                <img srcset="../img/modal-buy-order-mobile-1-1x-min.png 1x, ../img/modal-buy-order-mobile-1-2x-min.png 2x"
-                    src="../img/modal-buy-order-mobile-1-1x-min.png" alt="black-chocolate" class="modal-img">
+                <picture>
+                    <source
+                        srcset="../img/modal-buy-order-mobile-1-1x-min.png 1x, ../img/modal-buy-order-mobile-1-2x-min.png 2x"
+                        media="(max-width: 767px)">
+                    <source
+                        srcset="../img/modal-buy-order-tablet-desktop-1-1x-min.png 1x, ../img/modal-buy-order-tablet-desktop-1-2x-min.png 2x"
+                        media="(min-width: 768px)">
+                    <img src="../img/modal-buy-order-mobile-1-1x-min.png" alt="black-chocolate" class="modal-img">
+                </picture>
                 <a class="button">100 g</a>
             </li>
-            <li class="modal-items"><img
-                    srcset="../img/modal-buy-order-tablet-desktop-2-1x-min.png 1x, ../img/modal-buy-order-tablet-desktop-2-2x-min.png 2x"
-                    src="../img/modal-buy-order-tablet-desktop-2-1x-min.png" alt="black-and-white" class="modal-img">
+            <li class="modal-items">
+                <picture>
+                    <source
+                        srcset="../img/modal-buy-order-mobile-2-1x-min.png 1x, ../img/modal-buy-order-mobile-2-2x-min.png 2x"
+                        media="(max-width: 767px)">
+                    <source
+                        srcset="../img/modal-buy-order-tablet-desktop-2-1x-min.png 1x, ../img/modal-buy-order-tablet-desktop-2-2x-min.png 2x"
+                        media="(min-width: 768px)">
+
+                    <img src="../img/modal-buy-order-tablet-desktop-2-1x-min.png" alt="black-and-white"
+                        class="modal-img">
+                </picture>
                 <a class="button">200 g</a>
             </li>
-            <li class="modal-items"> <img
-                    srcset="../img/modal-buy-order-tablet-desktop-3-1x-min.png 1x, ../img/modal-buy-order-tablet-desktop-3-2x-min.png 2x"
-                    src="../img/modal-buy-order-tablet-desktop-3-1x-min.png" alt="chocolate-bar" class="modal-img">
-                <img src="./img/modal-buy-order-mobile-1-1x-min.png" alt="black-chocolate" class="modal-img">
-                <a class="button">100 g</a>
-            </li>
-            <li class="modal-items"><img src="./img/modal-buy-order-tablet-desktop-2-1x-min.png" alt="black-and-white"
-                    class="modal-img">
-                <a class="button">200 g</a>
-            </li>
-            <li class="modal-items"> <img src="./img/modal-buy-order-tablet-desktop-3-1x-min.png" alt="chocolate-bar"
-                    class="modal-img">
+
+            <li class="modal-items">
+                <picture>
+                    <source
+                        srcset="../img/modal-buy-order-mobile-3-1x-min.png 1x, ../img/modal-buy-order-mobile-3-2x-min.png 2x"
+                        media="(max-width: 767px)">
+                    <source
+                        srcset="../img/modal-buy-order-tablet-desktop-3-1x-min.png 1x, ../img/modal-buy-order-tablet-desktop-3-2x-min.png 2x"
+                        media="(min-width: 768px)">
+
+                    <img src="./img/modal-buy-order-tablet-desktop-3-1x-min.png" alt="chocolate-bar" class="modal-img">
+
+                </picture>
+
 
                 <a class="button">300 g</a>
             </li>

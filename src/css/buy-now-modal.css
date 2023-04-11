@@ -51,6 +51,7 @@
 }
 
 .modal-title {
+
     padding-top: 16px;
     font-weight: 600;
     font-size: 20px;
@@ -62,6 +63,7 @@
 }
 
 .modal-title-special {
+    margin-right: 5px;
     color: #FD9222;
 }
 
@@ -94,8 +96,7 @@
 
 .modal-img {
     margin-left: 16px;
-    width: 84px;
-    height: 69px;
+
 }
 
 .form-modal {
@@ -282,8 +283,7 @@
 
     .modal-img {
         margin: 0;
-        width: 120px;
-        height: 107px;
+
     }
 
     .button {
@@ -320,4 +320,3 @@
 
     }
 }
-
