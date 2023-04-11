@@ -119,12 +119,12 @@
 }
 
 .mobile-social-link {
-  stroke: #ffffff;
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-social-link:hover,
 .mobile-social-link:focus {
-  stroke: #fd9222;
+  fill: #fd9222;
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,12 +225,12 @@
     margin-left: 137px;
   }
   .mobile-social-link {
-    stroke: #111111;
-    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #111111;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-social-link:hover,
   .mobile-social-link:focus {
-    stroke: #fd9222;
+    fill: #fd9222;
   }
   .mobile-social-list:not(:last-child) {
     gap: 0px;
