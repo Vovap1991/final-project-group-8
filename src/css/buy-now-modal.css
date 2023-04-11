@@ -17,6 +17,10 @@
     pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.7);
+}
+
 .modal {
     width: 95%;
     max-width: 311px;
