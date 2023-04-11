@@ -6,8 +6,8 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
@@ -19,17 +19,17 @@ ol {
 }
 
 a {
-    text-decoration: none;
-    color: currentColor;
-    outline: transparent;
-  }
+  text-decoration: none;
+  color: currentColor;
+  outline: transparent;
+}
 
 button {
-    font-family: inherit;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    outline: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  outline: transparent;
 }
 
 img {
@@ -39,72 +39,74 @@ img {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    color: var(--black-color);
-    background-color: #FAFAFA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--black-color);
+  background-color: #fafafa;
 }
 
 :root {
-    font-family: Montserrat, Roboto, sans-serif;
-    --black-color: #111111;
-    --dark-purple-color: #1E1823;
-    --orange-color: #FD9222;
-    --white-color: #FAFAFA;
-  }
+  font-family: Montserrat, Roboto, sans-serif;
+  --black-color: #111111;
+  --dark-purple-color: #1e1823;
+  --orange-color: #fd9222;
+  --white-color: #fafafa;
+}
 
 .section {
-    padding-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 375px;
-    margin: 0 auto;
-  }
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 375px;
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .section {
-      padding-bottom: 100px;
+  .section {
+    padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
-    .container {
-      max-width: 1200px;
-    }
+  .container {
+    max-width: 1200px;
+  }
 
-    .section {
-      padding-bottom: 128px;
+  .section {
+    padding-bottom: 128px;
   }
 }
 
-
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
