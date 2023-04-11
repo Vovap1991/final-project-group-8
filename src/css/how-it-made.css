@@ -22,9 +22,6 @@
   color: var(--black-color);
   margin-bottom: 32px;
 }
-img {
-  border-radius: 15px;
-}
 
 .how-its-title-items {
   font-weight: 600;
@@ -74,6 +71,9 @@ img {
   justify-content: center;
 
   flex-wrap: wrap;
+}
+.how-its-img > img {
+  border-radius: 15px;
 }
 @media only screen and (min-width: 375px) {
   .how-its-text {
