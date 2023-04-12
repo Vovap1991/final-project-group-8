@@ -1,0 +1,52 @@
+<div class="backdrop sbc-menu-container sbc-is-hidden">
+  <div class="sbscrb-modal">
+    <button class="sbscrb-modal-btn sbc-close-menu" type="button">
+      <svg class="sbscrb-icon-size" width="12" height="12">
+        <use
+          class="sbscrb-modal-icon"
+          href="./img/symbol-defs.svg#icon-close"
+        ></use>
+      </svg>
+    </button>
+    <picture>
+      <source
+        srcset="
+          ./img/pop-up-desktop-tablet-1x-min.png 1x,
+          ./img/pop-up-desktop-tablet-2x-min.png 2x
+        "
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="
+          ./img/pop-up-mobile-1x-min.png 1x,
+          ./img/pop-up-mobile-2x-min.png 2x
+        "
+        media="(min-width:320px)"
+      />
+      <img
+        class="sbscrb-modal-img"
+        src="./img/pop-up-mobile-1x-min.png 1x"
+        alt="darck choco"
+      />
+    </picture>
+
+    <form class="sbscrb-modal-form">
+      <div class="sbscrb-modal-wrapper">
+        <div class="title-wrap">
+          <h2 class="sbscrb-modal-title">
+            Explore our <span class="accent"> new&nbsp;chocolate</span> first!
+          </h2>
+        </div>
+        <input
+          class="sbscrb-modal-input input-sbscr-name"
+          type="email"
+          name="user_email1"
+          placeholder="Enter your email"
+        />
+        <button class="sbscrb-submit-btn sbc-close-menu anim-b" type="button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
