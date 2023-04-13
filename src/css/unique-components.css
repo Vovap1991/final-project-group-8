@@ -1,5 +1,3 @@
-/*section uniqui*/
-
 .unique {
 padding-top: 72px;
 padding-bottom: 72px;
@@ -82,18 +80,17 @@ text-align: left;
 margin: 28px 28px;
 text-decoration: none;
 }
+
 .card-img-chocolate {
 border: 1px solid #FD9222;
 border-radius: 15px;
 background-color: #FD9222;
-
 }
 
 .card-img-milk {
 border: 1px solid #FD9222;
 border-radius: 15px;
 background-color: #FFFFFF;
-
 }
 
 .card-img-nuts {
@@ -106,8 +103,6 @@ background-color: #FFFFFF;
     width: 335px;
     border-radius: 15px;
 }
-
-
 
 .img-card-over {
     padding-top: 28px;
@@ -178,7 +173,6 @@ background-color: #FFFFFF;
     margin: auto;
 }
 
-
 @media screen and (min-width: 768px) {
     .unique {
         padding-top: 100px;
@@ -233,9 +227,7 @@ background-color: #FFFFFF;
     } 
 }
 
-
 @media screen and (min-width: 1200px) {
-    
     .unique {
         padding-top: 128px;
         padding-bottom: 128px;
@@ -286,7 +278,6 @@ background-color: #FFFFFF;
         padding-right: 20px;
         padding-left: 20px;
     }
-
 
     .img-uniq {
         width: 206px;

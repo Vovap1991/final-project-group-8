@@ -12,6 +12,7 @@
 .logo-orang {
   color: var(--orange-color);
 }
+
 .how-its-title {
   font-weight: 600;
   font-size: 20px;
@@ -31,6 +32,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
 .how-its-items {
   padding-left: 16px;
   display: flex;
@@ -41,9 +43,11 @@
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
 }
+
 .how-its-items-li {
   position: relative;
 }
+
 .how-its-items-li p::before {
   content: '';
   position: absolute;
@@ -57,6 +61,7 @@
   background: #4c4c4c;
   border: 1px solid #eceded;
 }
+
 .how-its-text {
   margin-left: auto;
   margin-right: auto;
@@ -65,51 +70,61 @@
   background: #ffffff;
   border-radius: 15px;
 }
+
 .how-its-picture {
   position: relative;
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
 }
+
 .how-its-img > img {
   border-radius: 15px;
 }
+
 @media only screen and (min-width: 375px) {
   .how-its-text {
     width: 335px;
   }
+
   .how-its-title-items {
     width: 307px;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .how-its-items {
     width: 480px;
   }
+
   .how-its-text {
     width: 614px;
     padding: 32px;
   }
+
   .how-its-title-items {
     margin-left: 0;
     width: 350px;
   }
+
   .how-its-title {
     font-size: 24px;
     line-height: calc(28 / 24);
     margin-bottom: 50px;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .how-its-containers {
     flex-direction: row;
   }
+
   .how-its-text {
     width: 516px;
     margin-left: 0;
     margin-right: 0;
   }
+  
   .how-its-items {
     gap: 24px;
   }
